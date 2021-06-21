@@ -5,3 +5,4 @@
 /*.bka
 /train_lunyu.py
 /play.py
+*__pycache__*
