@@ -1,0 +1,7 @@
+/data/json_files/
+/data/sentences_txt_files/
+/data_lunyu/
+/preprocess/download_by_ctext.py
+/*.bka
+/train_lunyu.py
+/play.py
