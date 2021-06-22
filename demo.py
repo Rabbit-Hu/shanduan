@@ -78,13 +78,13 @@ if __name__ == '__main__':
     task_type = "punc" # "punc" or "punc_type"
     # model = torch.load('./training_logs/model_3_weight1and5/checkpoints/checkpoint10.pth')
     # model = torch.load('./training_logs/model_6_punc_unweighted/checkpoints/checkpoint50.pth')
-    model = torch.load('./training_logs/model_7_punc_lunyu/checkpoints/checkpoint50.pth')
+    model = torch.load('./training_logs/model_11_punc_F1/checkpoints/best.pth')
     result = demo(model, tokenizer, text, task_type=task_type)
     print(result)
 
     task_type = "punc_type" # "punc" or "punc_type"
     # model = torch.load('./training_logs/model_4_punc_type/checkpoints/checkpoint50.pth')
-    model = torch.load('./training_logs/model_5_punc_type_unweighted/checkpoints/checkpoint45.pth')
+    model = torch.load('./training_logs/model_10_punc_type_mF1/checkpoints/best.pth')
     result = demo(model, tokenizer, text, task_type=task_type)
     print(result)
     
