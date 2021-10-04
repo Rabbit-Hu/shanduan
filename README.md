@@ -1,5 +1,9 @@
 # Shanduan: Classical Chinese Sentence Segmentation with BERT
 
+## Report
+
+See [final_report.pdf](https://github.com/Rabbit-Hu/shanduan/blob/main/final_report.pdf) for details about this project.
+
 ## Demo
 
 ```bash
